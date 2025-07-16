@@ -15,7 +15,7 @@ import html
 from datetime import datetime
 
 # --- Configuration ---
-BOT_TOKEN = "7466135203:AAEmRO7RyrmL3VW-lBt2L2xFKJBELUocTr4"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_IDS = {2076441468}
 REFERRAL_THRESHOLD = 3
 
